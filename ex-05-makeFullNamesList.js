@@ -11,13 +11,13 @@
 
 // ++ YOUR CODE HERE
 function makeFullNamesList(list) {
-	var newList = [];
+  var newList = [];
 	for (var i = 0; i < list.length; i++) {
-       if (list[i].gender === "male") {
-       		newList.push("Mr." + " " + list[i].first.toString() + " " + list[i].last.toString());
-       } else {
-       		newList.push("Ms." + " " + list[i].first.toString() + " " + list[i].last.toString());
-       }
+     if (list[i].gender === "male") {
+       newList.push("Mr." + " " + list[i].first.toString() + " " + list[i].last.toString());
+     } else {
+       newList.push("Ms." + " " + list[i].first.toString() + " " + list[i].last.toString());
+     }
 	}
 	return newList;
 }
